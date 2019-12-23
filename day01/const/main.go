@@ -20,6 +20,15 @@ const (
 	g        //2
 )
 
+// 面试题
+const (
+	a1 = iota //0
+	a2        //1
+	a3        //2
+	_         //3
+	a4        //4
+)
+
 func main() {
 	// a = 5 不能覆盖常量的值
 	fmt.Println(a)
@@ -30,4 +39,8 @@ func main() {
 	fmt.Println(f)
 	fmt.Println(g)
 
+	fmt.Println(a1)
+	fmt.Println(a2)
+	fmt.Println(a3)
+	fmt.Println(a4)
 }
